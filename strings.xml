@@ -1,0 +1,215 @@
+<resources>
+    <string name="app_name">WiFi密码</string>
+	
+	<string name="navigation_drawer_open">打开</string>
+	<string name="navigation_drawer_close">关闭</string>
+	<!--分享-->
+	<string name="share_message">WIFI密码，美观(符合谷歌开发风范Material Design)、简单、好用!软件可以生成二维码或者扫描WIFI卡片二维码进行连接！不仅如此，还有更多的功能等你体验！点击下载：http://www.coolapk.com/apk/com.wifi.password或者https://www.pgyer.com/WIFIPassword</string>
+	<!--Toast-->
+	<!--MENU-->
+	<!--MainActivity-->
+	<string name="menu_check_copy">批量复制所选</string>
+	<string name="menu_check_share">批量分享所选</string>
+	<string name="menu_check_all">选项全选</string>
+	<string name="menu_check_reverse">反选选项</string>
+	<string name="menu_check_cancel">取消选项</string>
+	<string name="menu_search">搜索</string>
+	<string name="menu_mark">收藏</string>
+	<!--XML-->
+	<!--SettingsActivity-->
+	<string name="xml_app_title">软件设置</string>
+	<string name="xml_app_title_general">全局设置</string>
+	<string name="xml_app_title_copy">复制设置</string>
+	<string name="xml_app_summary_on_copy">复制时加入名称和密码标识</string>
+	<string name="xml_app_title_auto_bk">自动备份</string>
+	<string name="xml_app_summary_on_auto_bk">每启动软件后自动备份WIFI</string>
+	<string name="xml_app_title_bug_report">用户体验</string>
+	<string name="xml_app_summary_on_bug_report">开启记录和发送日志</string>
+	<string name="xml_app_summary_off_bug_report">极其建议开启，否则无法提升用户体验</string>
+	<string name="xml_app_title_debug">开启开发者模式</string>
+	<string name="xml_app_title_file_path">软件存储路径</string>
+	<string name="xml_app_title_hide">隐藏设置</string>
+	<string name="xml_app_title_hide_no_psk">隐藏「无密码」WIFI</string>
+	<string name="xml_app_title_others">其他选项</string>
+	<string name="xml_app_title_product_tour">引导界面</string>
+	<string name="xml_app_title_reset_db">重置数据库</string>
+	<string name="xml_app_title_licenses">开放源代码许可</string>
+	<string name="xml_app_title_user_licenses">用户协议</string>
+	<!--String-->
+	<string name="search_tip">搜索已保存的WIFI...</string>
+	<string name="search_tip2">搜索已删除的WIFI...</string>
+	
+	<string name="tip_no_result">无符合结果 :(</string>
+	<string name="tip_no_mark">一个收藏也没有啊</string>
+	<string name="tip_empty">这里空空如也 :(</string>
+	
+	<string name="do_not_remind">不再提醒</string>
+	
+	<string name="tip_unsupport">暂不支持 6.0 以上的系统</string>
+	<!--CrashActivity-->
+	<string name="menu_crash_feedback">反馈</string>
+	<string name="menu_crash_code">崩溃分析</string>
+	<!--AboutActivity-->
+	<string name="menu_share">分享</string>
+	<!--MainActivity_nav-->
+	<string name="nav_title">捐献作者</string>
+	
+	<string name="nav_donate">让我们更有动力</string>
+	<string name="nav_settings">软件设置</string>
+	<string name="nav_feedback">反馈问题</string>
+	<string name="nav_translate">帮助翻译</string>
+	<string name="nav_share">分享软件</string>
+	<string name="nav_about">关于软件</string>
+	
+	<!--BaseActivity-->
+	<string name="base_activity_update_title">新版更新</string>
+	<string name="base_activity_update">更新</string>
+	
+	<string name="base_activity_saved">保存成功</string>
+	<string name="base_activity_saved_failed">不知道发生了什么，保存失败了</string>
+	
+	<string name="base_activity_save">保存</string>
+	
+	<string name="base_activity_share_title">分享到</string>
+	
+	<string name="base_activity_feedback1">通过默认方式反馈（问题或BUG通道）</string>
+	<string name="base_activity_feedback2">通过麦客反馈（测试版反馈通道）</string>
+	<string name="base_activity_feedback_tip">您的版本为测试版</string>
+	
+	<string name="base_activity_network">亲，此操作需要联网才能使用哦</string>
+	<string name="base_activity_model">您的机型：</string>
+	<string name="base_activity_send">发送</string>
+	
+	<string name="base_activity_hotspot_title">创建二维码热点</string>
+	<string name="base_activity_hotspot_title2">请扫描二维码连接</string>
+	<string name="base_activity_hotspot_disable">关闭热点</string>
+	
+	<string name="base_activity_donate_message">如果你因为这个应用而帮助到你，你可以对这个应用进行捐助，这样我花费的时间可以得到一些回报，就像王垠说的：“我一直很高尚的样子，不愿意为此收费。然而，根据经济学的原理，这是有害社会的 :P 经济的原理是这样，有价值的事物，应该在经济上受到相应的支持，这样好的东西才能受到鼓励，发扬光大，不好的东西才可能被人忘记。”\n\n因此这是我们做得更好的动力哦，不求广告(良心)。不论多少，土豪可以随便，您想通过哪一种来捐献呢？</string>
+	<string name="base_activity_donate_alipay">使用支付宝扫描二维码</string>
+	<string name="base_activity_donate_wechat">使用微信扫描二维码</string>
+	<string name="base_activity_donate_alipay_bn">通过支付宝</string>
+	<string name="base_activity_donate_wechat_bn">通过微信</string>
+	<string name="base_activity_donate_open_alipay">打开支付宝</string>
+	
+	<string name="base_activity_error_dialog">出现了不可描述的错误</string>
+	
+	<string name="base_activity_user_licenses">用户协议</string>
+	<string name="base_activity_licenses">开放源代码许可</string>
+	<string name="base_activity_update_report">更新日志</string>
+	<string name="base_activity_apply">同意</string>
+	<string name="base_activity_deny">不同意</string>
+	<string name="base_activity_donate">捐献</string>
+	
+	<!--MainActivity-->
+	<string name="main_activity_tools_menu_bk_rec">备份和恢复</string>
+	<string name="main_activity_tools_menu_hotspot">创建二维码热点</string>
+	<string name="main_activity_tools_menu_screenshot">列表长截图</string>
+	<string name="main_activity_tools_menu_recycle">WiFi回收站</string>
+	<string name="main_activity_tools_menu_manager">管理已保存网络</string>
+	<string name="main_activity_tools_menu_scan">扫描二维码卡片</string>
+	
+	<string name="main_activity_name">名称：</string>
+	<string name="main_activity_password">密码：</string>
+	<string name="main_activity_connected">当前连接</string>
+	<string name="main_activity_security">加密方式：</string>
+	<string name="main_activity_item_psk_empty">无密码</string>
+	
+	<string name="main_activity_screenshot_tip">正在截取整个WIFI列表中...</string>
+	<string name="main_activity_screenshot_message">截图已经保存到：</string>
+	<string name="main_activity_open_pic">查看</string>
+	<string name="main_activity_delete">删除</string>
+	
+	<string name="main_activity_menu_rename">设置备注</string>
+	<string name="main_activity_menu_delete_rename">删除备注</string>
+	<string name="main_activity_menu_select">多项选择</string>
+	<string name="main_activity_menu_mark">加入收藏</string>
+	<string name="main_activity_menu_cancel_mark">取消收藏</string>
+	<string name="main_activity_menu_info">详细信息</string>
+	<string name="main_activity_menu_copy_ssid">复制名称</string>
+	<string name="main_activity_menu_copy_psk">复制密码</string>
+	<string name="main_activity_menu_copy_all">全部复制</string>
+	
+	<string name="main_activity_snackbar_success">添加成功，正在连接...</string>
+	<string name="main_activity_snackbar_auto_saved">已经自动输入，正在刷新...</string>
+	<string name="main_activity_snackbar_settings_changed">设置已更改，正在进行应用...</string>
+	<string name="main_activity_snackbar_nonsupport">不能这样操作的 :D</string>
+	<string name="main_activity_snackbar_tip">-扫描二维码即可快速连接\n-双击打开复制菜单\n-长按打开功能选项\n-点击二维码进行保存</string>
+	<string name="main_activity_snackbar_network_unroot">授权ROOT更好玩 :D</string>
+	<string name="main_activity_snackbar_tip_save_qrcode">需要保存WiFi二维码卡片吗？</string>
+	<string name="main_activity_snackbar_disconnected">打开WiFi才能加载</string>
+	
+	<string name="main_activity_string_mac">MAC地址：</string>
+	<string name="main_activity_string_speed">连接速度：</string>
+	<string name="main_activity_string_router_ip">路由IP：</string>
+	<string name="main_activity_string_source">源信息：</string>
+	<string name="main_activity_string_ip">IP地址：</string>
+	<string name="main_activity_string_wep_port">WEP端口：</string>
+	<string name="main_activity_string_wep_ssid">WEP账号：</string>
+	<string name="main_activity_string_wep_psk">WEP密码：</string>
+	<string name="main_activity_string_eap_psk">EAP密码：</string>
+	<string name="main_activity_string_eap">有EAP密码</string>
+	<string name="main_activity_string_wep">有WEP密码</string>
+	<!--Settings Activity-->
+	<string name="settings_activity_bug">我们并不会收集您的私人信息，只收集有关于程序运行的日志和崩溃信息，开启才能发送和记录这些数据，我们才能更好地改进软件，您确定还要关闭吗 :(</string>
+	<string name="settings_activity_reset_db">一言既出，驷马难追 (/ω＼)</string>
+	<!--Manager Activity-->
+	<string name="manager_activity_snackbar_message">执行删除后不可恢复！</string>
+	<string name="manager_activity_snackbar_message2">确定恢复吗？</string>
+	<string name="manager_activity_snackbar_tip">长按即可删除项目</string>
+	
+	<string name="manager_activity_title">管理网络</string>
+	<!--BkAndRec Activity-->
+	<string name="bkrec_activity_snackbar_message">确定要恢复到这个备份？不可撤销哦！</string>
+	<string name="bkrec_activity_snackbar_empty">没有数据哦</string>
+	<string name="bkrec_activity_snackbar_rec_succeed">恢复完成</string>
+	<string name="bkrec_activity_snackbar_syncing">同步中...</string>
+	<string name="bkrec_activity_snackbar_sync_stop">无网络，同步被终止</string>
+	<string name="bkrec_activity_snackbar_request_timeout">请求超时</string>
+	<string name="bkrec_activity_snackbar_not_logged_in">未登录，因此无法同步</string>
+	
+	<string name="bkrec_activity_dialog_rec">恢复到此备份</string>
+	<string name="bkrec_activity_dialog_del">删除此备份</string>
+	
+	<string name="bkrec_activity_dialog_sync_tip">正在努力同步中，退出将会导致与云端同步不完整，还要继续退出吗？</string>
+	<string name="bkrec_activity_dialog_tip">所有的备份都在云端，因此不需要担心数据不见了 ^O^</string>
+	<string name="bkrec_activity_dialog_rec_tip">正在恢复第pos项，共size项，完成进度pro%</string>
+	
+	<!--Capture Activity-->
+	<string name="capture_activity_label">扫描WiFi卡片连接</string>
+	<string name="capture_activity_snackbar_tip">请扫描WIFI卡片二维码 :(</string>
+	<string name="capture_activity_snackbar_exist">已经保存了这个WIFI哦 Σ(ﾟДﾟ)</string>
+	<string name="capture_activity_snackbar_connected_error">无法连接 :(</string>
+	<string name="capture_activity_snackbar_disconnected">无法在未开启WIFI时候添加WIFI</string>
+	<string name="capture_activity_dialog_message1">扫描到一个WIFI卡片信息：</string>
+	<string name="capture_activity_dialog_message2">是否保存并连接？</string>
+	<string name="capture_activity_dialog_connect">连接</string>
+	
+	<!--Settings Activity-->
+	<string name="settings_activity_dialog_reset_default">已恢复默认</string>
+	<string name="settings_activity_dialog_succeed">设置成功</string>
+	<string name="settings_activity_dialog_failed">无法设置</string>
+	<!--截图-->
+	<string name="screenshot_snackbar">已保存到</string>
+	<string name="screenshot_filed_snackbar">保存失败 ：(</string>
+	<!--其他-->
+	<string name="bullet">&#9679; \t</string>
+	<!--关于-->
+	<string name="about_app">
+		WIFI密码，是由 Peter 开发的一款App.
+		\n
+		\n因为安卓的限制所以需要获取权限并读取密码文件，并自动处理，有些系统可能对中文进行了加密或者整个文件进行加密(特别是三星)，软件有非常丰富的功能。生成的二维码需要软件或系统支持才能连接哦。
+		\n
+		\n除此之外，还能备份和恢复WiFi(刷机必备有木有)、WiFi密码收藏、WiFi密码回收站等。
+		\n
+		\n我们做得非常轻，还需要您的支持(捐献)才能做得更好，在闲时它不会自启动、不会占用任何内存。
+		\n
+		\n我们做好设计，不乱使用权限，只求你如果喜欢，可以分享给你的朋友们，好东西需要分享才能让其健康成长，每一次分享都是我们的动力，非常感谢您的支持!
+		\n
+		\n如果有问题请反馈。反馈才能继续改进软件哦！
+		\n
+		\nCopyright©2018 Peter \nAll Rights Received.
+	</string>
+	
+	
+		
+</resources>

@@ -21,11 +21,10 @@
 	<string name="xml_app_title_general">全局设置</string>
 	<string name="xml_app_title_copy">复制设置</string>
 	<string name="xml_app_summary_on_copy">复制时加入名称和密码标识</string>
-	<string name="xml_app_title_auto_bk">自动备份</string>
-	<string name="xml_app_summary_on_auto_bk">每启动软件后自动备份WIFI</string>
-	<string name="xml_app_title_bug_report">用户体验</string>
-	<string name="xml_app_summary_on_bug_report">开启记录和发送日志</string>
-	<string name="xml_app_summary_off_bug_report">极其建议开启，否则无法提升用户体验</string>
+	<string name="xml_app_title_show">明文显示</string>
+	<string name="xml_app_summary_show">不直接显示密码，需要展开才会显示</string>
+	<string name="xml_app_title_cloud">云服务功能</string>
+	<string name="xml_app_summary_cloud">启用云服务功能可随时随地恢复</string>
 	<string name="xml_app_title_debug">开启开发者模式</string>
 	<string name="xml_app_title_file_path">软件存储路径</string>
 	<string name="xml_app_title_hide">隐藏设置</string>
@@ -38,6 +37,7 @@
 	<!--String-->
 	<string name="search_tip">搜索已保存的WIFI...</string>
 	<string name="search_tip2">搜索已删除的WIFI...</string>
+	<string name="search_tip3">搜索云端的WIFI备份...</string>
 	
 	<string name="tip_no_result">无符合结果 :(</string>
 	<string name="tip_no_mark">一个收藏也没有啊</string>
@@ -46,6 +46,8 @@
 	<string name="do_not_remind">不再提醒</string>
 	
 	<string name="tip_unsupport">暂不支持 6.0 以上的系统</string>
+	
+	<string name="network_disconnected">从前有座山，\n山上有座庙，\n庙里有个老和尚在找网络 :(</string>
 	<!--CrashActivity-->
 	<string name="menu_crash_feedback">反馈</string>
 	<string name="menu_crash_code">崩溃分析</string>
@@ -62,9 +64,6 @@
 	<string name="nav_about">关于软件</string>
 	
 	<!--BaseActivity-->
-	<string name="base_activity_update_title">新版更新</string>
-	<string name="base_activity_update">更新</string>
-	
 	<string name="base_activity_saved">保存成功</string>
 	<string name="base_activity_saved_failed">不知道发生了什么，保存失败了</string>
 	
@@ -72,23 +71,14 @@
 	
 	<string name="base_activity_share_title">分享到</string>
 	
-	<string name="base_activity_feedback1">通过默认方式反馈（问题或BUG通道）</string>
-	<string name="base_activity_feedback2">通过麦客反馈（测试版反馈通道）</string>
-	<string name="base_activity_feedback_tip">您的版本为测试版</string>
-	
 	<string name="base_activity_network">亲，此操作需要联网才能使用哦</string>
-	<string name="base_activity_model">您的机型：</string>
-	<string name="base_activity_send">发送</string>
 	
 	<string name="base_activity_hotspot_title">创建二维码热点</string>
 	<string name="base_activity_hotspot_title2">请扫描二维码连接</string>
 	<string name="base_activity_hotspot_disable">关闭热点</string>
 	
-	<string name="base_activity_donate_message">如果你因为这个应用而帮助到你，你可以对这个应用进行捐助，这样我花费的时间可以得到一些回报，就像王垠说的：“我一直很高尚的样子，不愿意为此收费。然而，根据经济学的原理，这是有害社会的 :P 经济的原理是这样，有价值的事物，应该在经济上受到相应的支持，这样好的东西才能受到鼓励，发扬光大，不好的东西才可能被人忘记。”\n\n因此这是我们做得更好的动力哦，不求广告(良心)。不论多少，土豪可以随便，您想通过哪一种来捐献呢？</string>
 	<string name="base_activity_donate_alipay">使用支付宝扫描二维码</string>
 	<string name="base_activity_donate_wechat">使用微信扫描二维码</string>
-	<string name="base_activity_donate_alipay_bn">通过支付宝</string>
-	<string name="base_activity_donate_wechat_bn">通过微信</string>
 	<string name="base_activity_donate_open_alipay">打开支付宝</string>
 	
 	<string name="base_activity_error_dialog">出现了不可描述的错误</string>
@@ -124,19 +114,21 @@
 	<string name="main_activity_menu_select">多项选择</string>
 	<string name="main_activity_menu_mark">加入收藏</string>
 	<string name="main_activity_menu_cancel_mark">取消收藏</string>
+	<string name="main_activity_menu_change">修改密码</string>
 	<string name="main_activity_menu_info">详细信息</string>
+	<string name="main_activity_menu_copy">复制选项</string>
 	<string name="main_activity_menu_copy_ssid">复制名称</string>
 	<string name="main_activity_menu_copy_psk">复制密码</string>
 	<string name="main_activity_menu_copy_all">全部复制</string>
 	
 	<string name="main_activity_snackbar_success">添加成功，正在连接...</string>
 	<string name="main_activity_snackbar_auto_saved">已经自动输入，正在刷新...</string>
-	<string name="main_activity_snackbar_settings_changed">设置已更改，正在进行应用...</string>
-	<string name="main_activity_snackbar_nonsupport">不能这样操作的 :D</string>
-	<string name="main_activity_snackbar_tip">-扫描二维码即可快速连接\n-双击打开复制菜单\n-长按打开功能选项\n-点击二维码进行保存</string>
+	<!--<string name="main_activity_snackbar_settings_changed">设置已更改，正在进行应用...</string>-->
+	<string name="main_activity_snackbar_nonsupport">不支持这样啊我也没有办法 :D</string>
+	<string name="main_activity_snackbar_tip">-扫描二维码即可快速连接\n-双击打开复制菜单\n-长按打开功能选项\n-长按二维码进行保存</string>
 	<string name="main_activity_snackbar_network_unroot">授权ROOT更好玩 :D</string>
 	<string name="main_activity_snackbar_tip_save_qrcode">需要保存WiFi二维码卡片吗？</string>
-	<string name="main_activity_snackbar_disconnected">打开WiFi才能加载</string>
+	<string name="main_activity_snackbar_disconnected">连接WiFi后才能加载</string>
 	
 	<string name="main_activity_string_mac">MAC地址：</string>
 	<string name="main_activity_string_speed">连接速度：</string>
@@ -148,7 +140,6 @@
 	<string name="main_activity_string_wep_psk">WEP密码：</string>
 	<string name="main_activity_string_eap_psk">EAP密码：</string>
 	<string name="main_activity_string_eap">有EAP密码</string>
-	<string name="main_activity_string_wep">有WEP密码</string>
 	<!--Settings Activity-->
 	<string name="settings_activity_bug">我们并不会收集您的私人信息，只收集有关于程序运行的日志和崩溃信息，开启才能发送和记录这些数据，我们才能更好地改进软件，您确定还要关闭吗 :(</string>
 	<string name="settings_activity_reset_db">一言既出，驷马难追 (/ω＼)</string>
@@ -159,6 +150,8 @@
 	
 	<string name="manager_activity_title">管理网络</string>
 	<!--BkAndRec Activity-->
+	<string name="bkrec_activity_tip">云服务已关闭</string>
+		
 	<string name="bkrec_activity_snackbar_message">确定要恢复到这个备份？不可撤销哦！</string>
 	<string name="bkrec_activity_snackbar_empty">没有数据哦</string>
 	<string name="bkrec_activity_snackbar_rec_succeed">恢复完成</string>
@@ -171,7 +164,7 @@
 	<string name="bkrec_activity_dialog_del">删除此备份</string>
 	
 	<string name="bkrec_activity_dialog_sync_tip">正在努力同步中，退出将会导致与云端同步不完整，还要继续退出吗？</string>
-	<string name="bkrec_activity_dialog_tip">所有的备份都在云端，因此不需要担心数据不见了 ^O^</string>
+	<string name="bkrec_activity_dialog_tip">备份在云端（如果登录了）和本地，因此几乎不需要担心数据不见了 ^O^</string>
 	<string name="bkrec_activity_dialog_rec_tip">正在恢复第pos项，共size项，完成进度pro%</string>
 	
 	<!--Capture Activity-->
@@ -188,6 +181,14 @@
 	<string name="settings_activity_dialog_reset_default">已恢复默认</string>
 	<string name="settings_activity_dialog_succeed">设置成功</string>
 	<string name="settings_activity_dialog_failed">无法设置</string>
+	
+	<!--Donate Activity-->
+	<string name="donate_activity_tip">如果你因为这个应用而帮助到你，你可以对这个应用进行捐助，\n这样我花费的时间可以得到一些回报。\n\n就像王垠说的：“我一直很高尚的样子，不愿意为此收费。然而，根据经济学的原理，这是有害社会的。\n\n经济的原理是这样，有价值的事物，应该在经济上受到相应的支持，这样好的东西才能受到鼓励，发扬光大，不好的东西才可能被人忘记。”\n\n因此这是我修复 BUG 的动力哦，不求广告(良心)。不论多少，土豪可以随便，您想通过哪一种来捐献呢？</string>
+	<string name="donate_activity_alipay">支付宝</string>
+	<string name="donate_activity_wechat">微信</string>
+	
+	<string name="donate_activity_donate_coffee">可以请我喝杯咖啡（5￥）吗 (›´ω`‹ )</string>
+	
 	<!--截图-->
 	<string name="screenshot_snackbar">已保存到</string>
 	<string name="screenshot_filed_snackbar">保存失败 ：(</string>
